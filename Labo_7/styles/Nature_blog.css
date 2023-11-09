@@ -1,0 +1,50 @@
+body {
+    width: 95%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+#achtergrond{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav{
+    padding-top: 0;
+    background-color: dimgrey;
+    color: black;
+
+}
+
+nav > a:link{
+        color: greenyellow;
+    text-decoration-line: none;
+
+}
+article > header > h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #2B2D42;
+    font-size: 1.5em;
+    text-underline: #2B2D42;
+    text-decoration-line: underline;
+}
+
+header > h1 {
+    padding-bottom: 60px;
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+    padding-left: 5px;
+
+}
+article{
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+
+}
+

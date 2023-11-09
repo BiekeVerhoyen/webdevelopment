@@ -1,0 +1,45 @@
+table{
+border: #2B2D42 solid;
+    border-collapse: collapse;
+
+}
+td{
+    border-style: dotted;
+
+    border-width:2px ;
+
+}
+thead  {
+background-color: rgb(170,170,200);
+
+}
+
+tbody>tr:first-child{
+    background-color: rgb(35,37,70);
+    color:rgb(200,190,240) ;
+    border-color:#2B2D42 ;
+}
+
+
+
+tbody>tr:nth-child(3)>td:first-child, tbody>tr:nth-child(4)>td:first-child, tbody>tr:nth-child(5)>td:first-child, tbody>tr:nth-child(6)>td:first-child,
+tbody>tr:nth-child(2)>td:last-child, tbody>tr:nth-child(3)>td:last-child, tbody>tr:nth-child(4)>td:last-child, tbody>tr:nth-child(5)>td:last-child{
+    background-color: rgb(255, 220, 220);
+    border-color:#2B2D42 ;
+}
+
+tbody>tr:nth-child(2)>td:first-child, tbody>tr:nth-child(6)>td:last-child, tbody>tr:nth-child(6)>td:nth-child(5), tbody>tr:nth-child(6)>td:last-child, tbody>tr:nth-child(6)>td:nth-child(6){
+    background-color: lightgray;
+    color: grey;
+    border-color:#2B2D42 ;
+}
+
+tbody>tr:nth-child(4)>td:nth-child(3) {
+    background-color: rgb(250, 120, 120);
+}
+
+tbody>tr:nth-child(2)>td:nth-child(5), tbody>tr:nth-child(2)>td:nth-child(6), tbody>tr:nth-child(3)>td:nth-child(4), tbody>tr:nth-child(3)>td:nth-child(5), tbody>tr:nth-child(4)>td:nth-child(2), tbody>tr:nth-child(4)>td:nth-child(6), tbody>tr:nth-child(5)>td:nth-child(3), tbody>tr:nth-child(5)>td:nth-child(5){
+text-underline: blue;
+    color: blue;
+    text-decoration-line: underline;
+}
