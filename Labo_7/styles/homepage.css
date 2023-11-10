@@ -56,6 +56,8 @@ table{
     padding: 0.2em;
     table-layout: auto;
     margin: 20px;
+
+
 }
 col{
     width: 10%;
@@ -73,13 +75,14 @@ col{
 }
 .table {
     font: normal 12px/150% Arial, Helvetica, sans-serif;
-    background: #fff;
     overflow: hidden;
-    border: 1px solid #006699;
+    border:palevioletred solid;
+    border-top:  transparent;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border-radius: 3px;
+    margin-top: 40px;
     width: 100%;
+    
 
     }
 .table table td, .table table th {
@@ -103,6 +106,7 @@ col{
     border-left: 1px solid #E1EEF4;
     font-size: 12px;
     font-weight: normal;
+    background-color: white;
 }
 .table table tbody .alt td {
     background: #E1EEF4;
