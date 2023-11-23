@@ -1,0 +1,67 @@
+body{
+    width: 95%;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 200px;
+    background-image: url("../Images/bgsky3.jpg");
+    text-align: center;
+    color: darkblue;
+
+}
+header p:first-child{
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+
+}
+header p:nth-child(2){
+    font-size: 240%;
+    font-weight: bold;
+}
+header>img {
+    float: right;
+    width: 200px;
+    position: absolute; top: 12%; left: 52%;
+}
+aside{
+    width: 25%;
+    float: right;
+    background-color: #dddddd;
+    border-width: 1px;
+    border-color: #999999;
+    color: #666666;
+    font-size: 90%;
+    padding: 10px;
+}
+aside>h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center      ;
+}
+
+body>main {
+    width: 75%;
+    margin-right:10px ;
+
+}
+
+body>main>article{
+
+}
+
+body>main>article>img{
+    float:left;
+
+}
+
+body>main>div>div{
+    display: inline-block;
+}
+
+body>main>div>:nth-child(3n+3) div{
+    clear: both;
+}
