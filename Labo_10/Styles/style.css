@@ -1,0 +1,19 @@
+body{
+
+    width: 97%;
+    text-align: center;
+    margin: auto;
+
+}
+div>div>div>div{
+    background-color: darkgrey;
+    height: 300px;
+
+    margin-bottom: 1.5em;
+
+
+}
+
+div>div>div:nth-child(2)>div{
+    background-color: grey;
+}

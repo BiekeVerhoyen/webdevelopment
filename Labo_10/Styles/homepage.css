@@ -1,0 +1,170 @@
+body{
+    font-family: sans-serif;
+    color: steelblue;
+    background-color: lightblue;
+    margin: 2em;
+}
+
+
+div>div{
+padding-right: 1.5em;
+}
+
+header {
+    background-color: steelblue;
+}
+h1{
+    color: #EDF2F4;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+
+}
+h2{
+    background-color: white;
+    padding:15px 15px 15px 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-color: palevioletred;
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+    background-image: url("../../images/ice.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+
+}
+a{
+    text-decoration-line: none;
+    color: steelblue;
+    font-weight: bold;
+}
+
+
+section{
+    border-style: solid;
+    margin-top: 40px;
+    border-color: palevioletred;
+    border-top: transparent;
+
+    }
+
+ul {
+    list-style-type: circle;
+}
+a:hover{
+    color: greenyellow;
+
+}
+table{
+    border: black solid ;
+    width: 50%;
+    border-collapse: collapse;
+    padding: 0.2em;
+    table-layout: auto;
+    margin: 20px;
+
+
+}
+col{
+    width: 10%;
+}
+ th,td{
+     border: black solid;
+     text-align: center;
+ }
+.table table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    border:palevioletred solid;
+    border-top:  transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin-top: 40px;
+    width: 100%;
+
+
+    }
+.table table td, .table table th {
+    padding: 3px 10px;
+}
+.table table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+    background:-moz-linear-gradient( #006699 5%, #00557F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color:#006699;
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #0070A8;
+}
+.table table thead th:first-child {
+    border: none;
+}
+.table table tbody td {
+    color: #00496B;
+    border-left: 1px solid #E1EEF4;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: white;
+}
+.table table tbody .alt td {
+    background: #E1EEF4;
+    color: #00496B;
+}
+.table table tbody td:first-child {
+    border-left: none;
+}
+.table table tbody tr:last-child td {
+    border-bottom: none;
+}
+.table table tfoot td div {
+    border-top: 1px solid #006699;
+    background: #E1EEF4;
+}
+.table table tfoot td {
+    padding: 0;
+    font-size: 12px;
+}
+.table table tfoot td div{
+    padding: 2px;
+}
+.table table tfoot td ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-align: right;
+}
+.table table tfoot  li {
+    display: inline;
+}
+.table table tfoot li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 1px;
+    color: #FFFFFF;
+    border: 1px solid #006699;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+    background:-moz-linear-gradient( #006699 5%, #00557F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+    background-color:#006699;
+}
+.table table tfoot ul.active, .table table tfoot ul a:hover {
+    text-decoration: none;
+    border-color: #006699;
+    color: #FFFFFF;
+    background: none, #00557F;
+
+}
+
