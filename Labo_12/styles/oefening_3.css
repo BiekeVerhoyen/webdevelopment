@@ -80,7 +80,7 @@ section>div>a{
     justify-content: center;
     text-decoration: none;
     color: grey;
-    font-size: xx-small;
+    font-size: xx-large;
 }
 
 section>div{
@@ -106,6 +106,9 @@ p{
         flex-direction: row;
         justify-content: space-evenly;
     }
+    nav>div>a{
 
+        font-size: large;
+           }
 
 }
