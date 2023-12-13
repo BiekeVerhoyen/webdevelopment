@@ -1,0 +1,111 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    padding: 10px;
+
+    margin: 0;
+    border: 20px #333;
+    border-style: solid;
+
+
+}
+h1{
+
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+main{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+}
+
+section {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+
+}
+
+
+
+header, footer{
+    background: #ddaa00;
+
+    ;
+}
+header>a, footer>a{
+    color: #ddaa00;
+}
+footer{
+
+    border-top: 20px #333;
+    border-style: solid;
+    text-align: center;
+    color: yellow;
+}
+
+
+nav{
+    background-color: #ccc;
+    padding:  15px 2px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+nav>div>a{
+    color: #ddaa00;
+    text-decoration: none;
+    font-size: x-small;
+
+}
+nav>div{
+    border-style: solid;
+    border-color: grey;
+    padding: 2%  4%;
+    background-color: white;
+    margin: 2px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+section>div>a{
+
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: grey;
+    font-size: xx-small;
+}
+
+section>div{
+    border: 1px #333;
+    border-style: solid;
+
+
+}
+
+img{
+    padding: 0;
+    text-align: center;
+
+}
+p{
+    font-size: larger;
+}
+@media (min-width: 700px) {
+
+    main{
+        background-color: grey;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+}
