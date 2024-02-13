@@ -1,0 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
+li:nth-child(2n+1){
+    font-style: italic;
+}
