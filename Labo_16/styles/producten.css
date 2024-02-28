@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+
+table{
+    border: #2B2D42 solid;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+
+}
+td{
+    border: #2B2D42 solid;
+    border-width:2px ;
+    padding: 2px;
+
+}
+th{
+    border: #2B2D42 solid;
+    border-width:2px ;
+    padding: 2px;
+
+
+}
