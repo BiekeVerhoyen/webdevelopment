@@ -14,11 +14,11 @@ const herbereken = () => {
     let subtotaal3 = (parseFloat(prijzen[2].textContent) * aantallen[2].value * (1+ (parseFloat(btw[2].textContent))/100)).toFixed(2);
     let totaal1 = (parseFloat(subtotaal1) + parseFloat(subtotaal2) + parseFloat(subtotaal3)).toFixed(2);
 
-    subtotalen[0].innerHTML = subtotaal1
-    subtotalen[1].innerHTML = subtotaal2
-    subtotalen[2].innerHTML = subtotaal3
+    subtotalen[0].innerHTML = subtotaal1 + " Eur"
+    subtotalen[1].innerHTML = subtotaal2 + " Eur"
+    subtotalen[2].innerHTML = subtotaal3 + " Eur"
 
-    totaal.innerHTML = totaal1
+    totaal.innerHTML = totaal1 + " Eur"
 }
 
 
