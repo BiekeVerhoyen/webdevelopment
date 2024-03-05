@@ -1,0 +1,9 @@
+form{
+    font-family: sans-serif;
+    border: solid black;
+    padding: 0.5em;
+    width: 50%;
+    }
+input{
+    margin: 0.5em;
+}

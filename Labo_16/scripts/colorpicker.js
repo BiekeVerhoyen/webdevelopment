@@ -24,3 +24,6 @@ const update = () => {
   blok[0].style.backgroundColor =  'rgb(' + sliderRed + ',' + sliderGreen + ',' + sliderBlue + ')';
 }
 window.addEventListener("load", setup);
+
+// for lus schrijven
+// standaard kleur begin zonder Css, want anders dubbele code
