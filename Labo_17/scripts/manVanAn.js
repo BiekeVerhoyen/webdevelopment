@@ -1,5 +1,5 @@
 const setup = () => {
-    let input = document.getElementById("input").innerHTML
+    let input = document.getElementById("input").innerHTML.toLowerCase()
     aantalAnIndex(input);
     aantalAnIndexLast(input);
 
