@@ -1,0 +1,14 @@
+label{
+    vertical-align: top;
+
+}
+input:first-of-type{
+    margin-left: 6em;
+}
+span{
+    margin-right: 3.4em;
+}
+label:last-of-type{
+    margin-right: 4em;
+}
+

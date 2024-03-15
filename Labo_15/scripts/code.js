@@ -1,6 +1,8 @@
 const setup = () => {
+    voegNaamToe();
+    console.log(familieleden.join());
 }
-window.addEventListener("load", setup);
+
 
 let familieleden = ['mama', 'papa', 'zus', 'broer', 'oma', 'opa'];
 console.log(familieleden.length);
@@ -12,5 +14,5 @@ let voegNaamToe =  () => {
     familieleden.push(naam);
     console.log(familieleden);
 }
-voegNaamToe();
-console.log(familieleden.join());
+
+window.addEventListener("load", setup);

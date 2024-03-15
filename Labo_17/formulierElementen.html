@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ENG">
+<html lang="ENG" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/formulierElementen.css">
@@ -42,7 +42,9 @@
     <input required="required" type="text" name="password"  id="password"/>
     <br>
     <label for="favoriteFood"> Favorite food:</label>
-    <input list="favoriteFood" name="favoriteFood" />
+    <label>
+        <input list="favoriteFood" name="favoriteFood" >
+    </label>
     <datalist id="favoriteFood">
         <option value="hamburger">
         <option value="pizza">
