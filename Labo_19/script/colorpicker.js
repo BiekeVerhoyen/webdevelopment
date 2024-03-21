@@ -67,8 +67,6 @@ const createBlock = () => {
     let btnCross = document.createElement("button");
     btnCross.textContent = "x"
     divBlok.appendChild(btnCross);
-    //kruisbutton een zelfde id meegeven
-    btnCross.setAttribute("data-id", colorBlok);
     btnCross.style.float = "right";
     btnCross.addEventListener("click", deleteBlok);
 
