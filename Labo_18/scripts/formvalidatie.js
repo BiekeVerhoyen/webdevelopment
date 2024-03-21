@@ -1,7 +1,7 @@
 const setup = () => {
     let btnValideer=document.getElementById("valideer")
     btnValideer.addEventListener("click", valideer);
-    let inputField = document.getElemen
+
 };
 
 const valideer = () => {
