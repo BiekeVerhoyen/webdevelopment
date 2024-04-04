@@ -1,0 +1,48 @@
+
+
+.container img{
+    margin: 1em;
+
+}
+
+
+
+body{
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: wheat;
+
+}
+
+h1{
+   text-align: center;
+    color: purple;
+}
+
+
+
+.hide{
+    visibility: hidden;
+}
+
+.back{
+    width: 280px;
+    height: 280px;
+    background-image: url("../image/egg.png");
+    padding: 0;
+    margin: 6px;
+}
+
+.visible{
+
+}
+
+.correct {
+    border: green solid 5px;
+    margin: 0;
+    cursor: wait;
+}
+.false{
+    border: indianred solid 5px;
+    margin: 0;
+    cursor: wait;
+}
