@@ -1,0 +1,117 @@
+body{
+    font-family: sans-serif;
+    margin: 3em;
+}
+
+.card-body{
+    border-style: solid;
+    padding: 1rem;
+    border-radius: 5px;
+
+
+}
+
+.card-title{
+    font-size: medium;
+}
+
+
+input{
+    border-color: lightslategray;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: medium;
+    margin-bottom: 1em;
+}
+
+button{
+    background-color: green;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgreen;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2em;
+    font-size: medium;
+}
+
+.container{
+}
+
+.card{
+color: #EDF2F4;
+}
+
+.row-cols-3 > div{
+
+    justify-content: space-evenly;
+
+}
+
+.card-title{
+    margin-top : 0
+
+}
+
+.btn-primary{
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    margin-top: 1em;
+
+}
+
+.Instagram{
+    background-color:  purple;
+    border-color: purple;
+
+}
+
+
+.Instagram > .btn-primary {
+    background-color: orangered;
+    border-color: orangered;
+
+
+}
+
+.Google{
+    background-color:  royalblue;
+    border-color: royalblue;
+
+}
+
+
+.Google > .btn-primary {
+    background-color: orangered;
+    border-color: orangered;
+
+}
+
+.X{
+    background-color:  deepskyblue;
+    border-color: deepskyblue;
+
+}
+
+
+.X> .btn-primary {
+    background-color: black;
+    border-color: black;
+
+}
+
+.X{
+    background-color:  red;
+    border-color: red;
+
+}
+
+
+.X> .btn-primary {
+    background-color: black;
+    border-color: black;
+
+}
