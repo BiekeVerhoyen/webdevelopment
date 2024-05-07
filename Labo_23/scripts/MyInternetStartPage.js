@@ -6,7 +6,7 @@ const setup = () => {
 
     let button = document.getElementById("go-button")
     button.addEventListener("click", search)
-    if(localStorage.getItem("history") === undefined){
+    if(localStorage.getItem("history") !== undefined){
         makeCards();
 
     }
